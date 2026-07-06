@@ -1,16 +1,56 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal portfolio showcasing my work in mechanical engineering, plasma simulation, and computational physics — including project write-ups, technical skills, and experience.
 
-Currently, two official plugins are available:
+**Live site:** [your-portfolio-url-here](#) <!-- update after deploying -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+This is a single-page React application featuring smooth scroll-based animations, built to highlight my work across plasma physics simulations, aerospace design, deep learning for structural optimization, and embedded systems.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+| Category | Tools |
+|---|---|
+| Framework | React (Vite) |
+| Routing | React Router |
+| Animation | Framer Motion |
+| Icons | React Icons, Devicon |
+| Styling | Vanilla CSS (custom dark theme) |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Features
+
+- Fully responsive across desktop, tablet, and mobile
+- Scroll-triggered fade-in animations throughout
+- Individual detail pages for each project, with image galleries and GitHub links
+- Categorized skills section (programming, simulation software, soft skills)
+- Animated starfield background
+- Centralized content files (`projects.js`, `experience.js`) for easy updates
+
+## Project Structure
+```
+src/
+├── assets/         # images, logos, profile photo
+├── components/     # React components (Hero, About, Skills, Projects, etc.)
+├── data/           # content data (projects.js, experience.js)
+├── App.jsx         # routing and layout
+└── App.css         # global styles
+```
+
+## Running Locally
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
+
+## Deployment
+
+Deployed on [Vercel](https://vercel.com), with automatic redeployment on every push to `main`.
+
+## Contact
+
+- **LinkedIn:** [linkedin.com/in/amey-kemkar](https://linkedin.com/in/amey-kemkar)
+- **GitHub:** [github.com/bufferboy-commits](https://github.com/bufferboy-commits)
